@@ -11,7 +11,7 @@
     map.on('load', function () {
         map.addSource('myGeojson', {
             'type': 'geojson',
-            'data': 'http://storage.googleapis.com/mapbox-ninlin/sthlm_service.geojson'  // Replace with the path to your GeoJSON file
+            'data': 'https://storage.googleapis.com/mapbox-ninlin/sthlm_service.geojson'  // Replace with the path to your GeoJSON file
         });
 
         map.addLayer({
